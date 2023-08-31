@@ -1,0 +1,28 @@
+.PostDetail {
+    background-color: #EAEAEA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.PostDetail .Write :hover {
+    cursor: pointer;
+}
+
+.PostDetail .Write {
+    width: 3rem;
+    height: 3rem;
+    background-color: #e74c3c; /* Replace with your desired background color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    position: fixed;
+    bottom: 5.5em;
+    right: 5.5em;
+}

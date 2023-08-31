@@ -1,0 +1,36 @@
+.NewPost {
+  background-color: #EAEAEA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.NewPost .input-box {
+    width: 30rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 24px;
+}
+
+.NewPost .Send :hover {
+    cursor: pointer;
+}
+
+.NewPost .Send {
+    width: 3rem;
+    height: 3rem;
+    background-color: #e74c3c; /* Replace with your desired background color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    position: fixed;
+    bottom: 6.5em;
+    right: 18.5em;
+}

@@ -1,0 +1,50 @@
+.Post {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80vw;
+}
+
+.Post .Profile {
+    font-size: 0.5em;
+}
+
+.Post .Owner {
+    margin: 0 0.5em 0 0
+}
+
+.Post .Content {
+    padding: 0.5em 0 0.5em 0;
+}
+
+.Post .Action :hover {
+    cursor: pointer;
+}
+
+.Post .Action {
+    font-size: 0.6em;
+}
+
+.Post .Action .icon {
+    margin: 0 0.2em 0 0.2em;
+}
+
+.Post .Action .heart {
+    color: skyblue;
+}
+
+.Post .ProfileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden; /* Clip the image to the circular shape */
+    margin-right: 10px;
+}
+  
+.Post .ProfileImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}

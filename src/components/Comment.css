@@ -1,0 +1,20 @@
+.Comment {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+    width: 70vw;
+}
+
+.Comment .Profile {
+    font-size: 0.5em;
+}
+
+.Comment .Owner {
+    margin: 0 0.5em 0 0
+}
+
+.Comment .Message {
+    font-size: 0.7em;
+}
